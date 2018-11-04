@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>History</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" type="text/css" href="/styles/history.css">
+  </head>
+  <body>
+  	<div class="container-fluid">
+  	 <div class="row row3">
+    	<div class="col-lg-12">
+      		<div class="card-deck">
+      			<%for(var i=0;i<data.length;i++){%>
+					<div class="card" id=<%=data[i].id%>>
+						<img class="card-img-top" src=<%=data[i].image_ref%> alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title"><%=data[i].title%></h5>
+							<h6 class="card-subtitle">Downloads: <%=data[i].downloads%></h6>
+						</div>
+					</div>
+				<%}%>	
+      		</div>
+      	</div>
+     </div>
+  	</div>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+<script type="text/javascript" src="/scripts/history.js"></script>
+  </body>
+</html>
