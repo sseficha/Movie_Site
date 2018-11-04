@@ -1,0 +1,146 @@
+html{
+	height: 100%;
+}
+
+
+body{
+	background-image: url("background.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	overflow: hidden;
+*/}
+
+h1{
+	position: relative;
+	color: white;
+	top: 10px;
+	left: 85%;
+}
+
+.icon-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.row2misi{
+	position: relative;
+	top: 150px;
+}
+
+hr { 
+    display: block;
+  
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 3px;
+
+
+}
+
+.tab{
+	position: relative;
+	left: 40%;
+	width: 200px;
+	color: white;
+}
+
+.row1{
+	height: 74px;
+}
+.navbar{
+	opacity: 0.9;
+}
+
+.row2{
+	position: relative;
+	top: 75px;
+}
+
+form{
+	margin-left: auto;
+	margin-right: auto;
+    width: 45%
+
+    }
+
+ .sbar{
+  	border-radius: 30px 30px 30px 30px;
+	 position: relative;
+	left: 24%;
+  	text-align: center;
+  	font-family: "Times New Roman";
+  	font-size: 18px;
+  	font-weight: 450;
+  	letter-spacing: 1px;
+  	word-spacing: 2px;
+  	width: 50%;
+
+
+}
+#search-button{
+	position: absolute;
+	top: 5px;
+	background-color: transparent;
+	border: none;	
+}
+
+.row3{
+	position: absolute;
+	top: 350px;
+	left: 3.5%;
+	margin-left: auto;
+	margin-right: auto;
+ 	}
+
+
+
+.card-img-top{
+	height: 200px;
+	border: 2px solid white;
+}
+
+.card{
+	background-color : transparent;
+	border: none;
+	box-shadow: none;
+	min-width: 225px;
+	max-width: 225px;
+}
+
+.card-body{
+	padding: 1px;
+}
+.card-title{
+	margin-bottom: 0px;
+	font-size: .95em;
+	font-weight: 700;
+	font-family: sans-serif;
+	color: white;
+}
+
+.card-subtitle{
+	margin-bottom: 0px;
+	margin-top: 1px;
+	font-size: .85em;
+	font-family: sans-serif;
+	color: #919191;
+}
+
+
+
+
+
+
+   
+
+
+
